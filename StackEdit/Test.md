@@ -5,12 +5,11 @@
 >
 # これはテスト用です
 
-|  | 共有| 手書きもじ| |
-|:--|:--:| :--:| -- |
-| google docs |o | | |
-| Stack Edit |o | | | 
-| Nebo |x | 
+|  | 共有| Git Hub | 手書き文字| 数式|
+|:--|:--:| :--:| -- |-- |
+| google docs |◯ || ◯| △|
+| Stack Edit |◯ | ×| ◯ | 
+| Nebo | × | ◯ | ◯ | 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwODc5NzIwNjQsLTEyNTcwMzUzODhdfQ
-==
+eyJoaXN0b3J5IjpbLTg4Nzg2NDg0OSwtMTI1NzAzNTM4OF19
 -->

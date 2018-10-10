@@ -11,8 +11,7 @@
 |:--|:--:| :--:| :--: |:--: | :--:|
 | google docs | ◯ | × | トラックパネル| 挿入| 挿入可 |
 | Stack Edit  | ◯ | ◯| なし| LaTex | コードで追加 |
-| Nebo        | ×  | ×| 手書き文字を変換 | 手書き文字を変換 | |
+| Nebo        | ×  | ×| 手書き文字を変換 | 手書き文字を変換 |注釈をつけられる |
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNTYzMzY1MjEsLTEyNTcwMzUzODhdfQ
-==
+eyJoaXN0b3J5IjpbMTE5MDcwMzUwMiwtMTI1NzAzNTM4OF19
 -->

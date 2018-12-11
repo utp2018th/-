@@ -1,0 +1,169 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #000;
+  position: fixed;
+  height: 60px;
+  width: 100%;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+nav {
+  margin-right: 5%;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #c0a340;
+}
+
+/*   First block   */
+#first-block {
+  background-image: url("../images/tansui.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 550px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title-container {
+  text-align: center;
+}
+
+h1 {
+  font-size: 80px;
+  font-family: serif;
+  color: #c0a340;
+}
+
+h3 {
+  font-size: 50px;
+  font-family: serif;
+  color: #c0a340;
+}
+/*   First block End   */
+
+
+/*   Second block   */
+#second-block {
+  background-color: #ccd;
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.about-container {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+}
+
+.info-title {
+  font-size: 60px;
+  font-family: serif;
+  margin-bottom: 20px;
+  color: #444;
+}
+
+.info-text {
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: #444;
+
+  width: 30%;
+}
+
+#second-block .listing{
+  font-size: 20px;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.font-small {
+  font-size: 20px;
+}
+
+#second-block a {
+  color: #177;
+  text-decoration: none;
+}
+
+#second-block a:hover {
+  color: #c0a340;
+}
+/*   Second block End   */
+
+/*   Third block End   */
+#third-block {
+  background-color: #eef;
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.event-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  width: 100%;
+}
+
+.events-title {
+  font-size: 60px;
+  font-family: serif;
+  color: #444;
+}
+
+.event {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+
+  margin-top: 30px;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.event-name {
+  font-size: 20px;
+  padding: 10px;
+  width: 40%;
+}
+
+span {
+  font-size: 40px;
+  font-family: serif;
+}
+
+.event-image {
+  width: 20%;
+  height: 20%;
+}
+/*   Third block End   */
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 50px;
+  background-color: #000;
+  font-size: 15px;
+  color: #fff;
+}

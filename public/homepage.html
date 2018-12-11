@@ -1,0 +1,136 @@
+<!DOCTYPE html> <!--　この文章がHTML文章であることを伝える要素です。-->
+<html lang="ja"><!--言語の指定-->
+  <head><!--ページに表示されない情報(サイトの裏側の設定)-->
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="./stylesheets/style.css">
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
+    <script>
+    $(function(){
+      // #で始まるアンカーをクリックした場合に処理
+      $('a[href^=#]').click(function() {
+      // スクロールの速度
+      var speed = 400; // ミリ秒
+      // アンカーの値取得
+      var href= $(this).attr("href");
+      // 移動先を取得
+      var target = $(href == "#" || href == "" ? 'html' : href);
+      // 移動先を数値で取得
+      var position = target.offset().top;
+      // スムーススクロール
+      $('body,html').animate({scrollTop:position}, speed, 'swing');
+      return false;
+      });
+    });
+    </script>
+    <title>やるぞ〜！EX</title><!--ブラウザのタブのタイトルを指定-->
+  </head>
+  <body>
+    <header class="header-nav">
+      <nav><a href="#first-block">Home</a></nav>
+      <nav><a href="#second-block">About me</a></nav>
+      <nav><a href="#third-block">Recent Activity</a></nav>
+    </header>
+
+    <!--   First block Start   -->
+    <section id="first-block">
+      <div class="tittle-container">
+        <h1>薬学部試験対策ページ</h1>
+        <h3>試験対策に関する情報をあげていきます</h3>
+      </div>
+    </section>
+    <!--   First block End   -->
+
+      <!--   Second block Start   -->
+    <section id="second-block">
+      <p class="info-title">
+          About me
+      </p>
+      <div class="about-container">
+        <p class="info-text">
+          <b>Studying</b>
+          <span class="listing">
+          <br>
+
+          <br>
+
+          <br>
+
+          <br>
+
+          </span>
+        </p>
+
+        <p class="info-text">
+          <b>東京大学薬学部</b>
+          <br>
+          <span class="font-small">
+
+          <br>
+          <br>
+
+          <br>
+
+          <br>
+          薬学でプログラミング技術を
+          <br>活かせる機会を探しています。
+          </span>
+        </p>
+
+        <p class="info-text">
+          <b>Twitter</b>
+          <br>
+          <span class="font-small">
+          >>
+          <a href="https://twitter.com/proanzu_f">@proanzu_f</a>
+          <br>
+          しょうもない事ばかり呟いています。
+          <br>
+          最近はラーメンの画像か荒野行動が多いです。
+          </span>
+        </p>
+      </div>
+    </section>
+    <!--   Second block End   -->
+
+    <!--   Third block Start   -->
+    <section id="third-block">
+      <p class="events-title">
+        Recent Events
+      </p>
+      <div class="event-container">
+        <div class="event">
+          <image src="images/momotetsu.jpg" class="event-image">
+          <p class="event-name">
+            <span>11/23<br>桃鉄オール</span>
+            <br>
+            <br>
+            友達の家で桃鉄オールしました
+            <br>
+            本当は20年の予定でしたが、
+            <br>9年目の時点で僕がバカ勝ちして
+            <br>みんなが飽きてしまいました。
+
+
+          </p>
+        </div>
+        <div class="event">
+          <p class="event-name">
+            <span>11/30~12/3<br>名古屋旅行</span>
+            <br>
+            <br>
+            ライブを見に行くために友達と
+            <br>３泊４日で名古屋旅行してきました。
+            <br>名古屋はご飯が美味しい。
+
+          </p>
+          <image src="images/nagoya.jpg" class="event-image">
+        </div>
+      </div>
+    </section>
+  <!--   Third block End   -->
+
+    <footer>
+      <p>Copyright © Seika All Rights Reserved.</p>
+    </footer>
+  </body>
+</html>
